@@ -9,6 +9,7 @@ To activate the environment, `. bin/activate`.
 Then, `pip install -r /path/to/requirements.txt`
 
 Note that to install pycurl on Mac OSX, the command 
-`env ARCHFLAGS="-arch x86_64" pip install pycurl` was used separately.
+`sudo env ARCHFLAGS="-arch x86_64" pip install pycurl` was used to install pycurl
+globally.
 
 
